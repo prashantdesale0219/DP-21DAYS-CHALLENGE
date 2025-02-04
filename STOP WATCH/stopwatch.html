@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Stopwatch</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #5b4046, #ff4b2b);
+            color: white;
+        }
+
+        .stopwatch {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .time {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #32ff7e;
+            text-shadow: 0 0 10px #32ff7e;
+        }
+
+        button {
+            margin: 8px;
+            padding: 12px 20px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .start-btn {
+            background: #1dd1a1;
+            color: white;
+            box-shadow: 0 0 10px #1dd1a1;
+        }
+        
+        .stop-btn {
+            background: #ff6b6b;
+            color: white;
+            box-shadow: 0 0 10px #ff6b6b;
+        }
+        
+        .reset-btn {
+            background: #feca57;
+            color: white;
+            box-shadow: 0 0 10px #feca57;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            opacity: 0.9;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="time">00:00:00</div>
+        <button class="start-btn" onclick="startStopwatch()">Start</button>
+        <button class="stop-btn" onclick="stopStopwatch()">Stop</button>
+        <button class="reset-btn" onclick="resetStopwatch()">Reset</button>
+    </div>
+    <script>
+        let timer;
+        let seconds = 0, minutes = 0, hours = 0;
+        let running = false;
+
+        function updateTime() {
+            seconds++;
+            if (seconds === 60) {
+                seconds = 0;
+                minutes++;
+                if (minutes === 60) {
+                    minutes = 0;
+                    hours++;
+                }
+            }
+            document.querySelector('.time').textContent = 
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        function startStopwatch() {
+            if (!running) {
+                running = true;
+                timer = setInterval(updateTime, 1000);
+            }
+        }
+
+        function stopStopwatch() {
+            running = false;
+            clearInterval(timer);
+        }
+
+        function resetStopwatch() {
+            running = false;
+            clearInterval(timer);
+            seconds = 0; minutes = 0; hours = 0;
+            document.querySelector('.time').textContent = "00:00:00";
+        }
+    </script>
+</body>
+</html>
