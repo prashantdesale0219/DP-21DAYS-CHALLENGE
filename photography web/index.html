@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY WEB</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- MEDIA CSS LINK -->
+    <link rel="stylesheet" href="media.css">
+    <!-- REMIX ICN CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP ICN CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- GGOGLE FONT LINK -->
+    <link rel="stylesheet" href="font/font.css">
+    <!-- JQ CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- MAIN BANNER -->
+
+       <div class="banner">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="image/logo.png.webp" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ELEMENT</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          BLOG
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">blog1</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">blog2</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">blog4</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                  </div>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close text-reset btn-outline-primary " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 bg-light ">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">ELEMENT</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                BLOG
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                            
+                          </ul>
+                    </div>
+                  </div>
+            </nav>
+
+
+        <div class="bitmap">
+            <h1>Bitmap Photography</h1>
+            <p>If you are looking at blank cassettes on the web, you may be <br> very confused at the difference in price.</p>
+            <a href="">EXPLORE GALLERY</a>
+        </div>
+       </div>
+            
+
+        <!-- NAV TAB -->
+
+        <div class="tab-main">
+            <ul class="nav nav-pills  mb-3 d-flex justify-content-center " id="pills-tab" role="tablist">
+                <li class="nav-item link1" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">ALL</button>
+                </li>
+                <li class="nav-item link1" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">APPROVED</button>
+                </li>
+                <li class="nav-item link1" role="presentation">
+                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">UNAPPROVED</button>
+                </li>
+                <li class="nav-item link1" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-view" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">UNVIEWED</button>
+                  </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 fw-bold "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-view" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img2.jpg" alt="" class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 fw-bold "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img4.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img1.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12 mb-3 vidgets">
+                                <img src="image/img3.jpg" alt=""class="img-fluid w-100 ">
+                                <div class="layer">
+                                    <h4>Spreading Peace To World <br><br>
+                                        <a href="" class="text-white "><i class="bi bi-arrows-angle-expand fs-2 "></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="heading-content2">
+                <a href="">LOAD MORE IMAGES</a>
+              </div>
+        </div>
+
+        <!-- CLIENT FEEDBACK -->
+
+        <div class="feedback">
+            <div class="containers d-flex flex-sm-column flex-lg-row ">
+                <div class="text-content col-6 col-sm-12 col-md-12 col-xl-5 col-12">
+                    <h1>Client’s Feedback</h1>
+                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                </div>
+                <div class="img-content col-5 col-sm-12 col-md-12 col-xl-5 col-12 pt-md-2  text-white ">
+                    <div class="image"><img src="image/profile.jpg" alt="" class="img-fluid"></div>
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Eos eligendi quas nihil.br Labore culpa, <br> ullam velit distinctio accusantium eius! Distinctio <br> cum hic rem? Inventore vitae repellat obcaecati soluta dolore dolorum!</p>
+                    <b>Mark Alviro Wiens</b><br>
+                    <span>CEO at google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COUNTER -->
+
+        <div class="sectiontitle">
+            <h2>Projects statistics</h2>
+            <span class="headerLine"></span>
+        </div>
+        <div id="projectFacts" class="sectionClass">
+            <div class="fullWidth eight columns">
+                <div class="projectFactsWrap ">
+                    <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                        <i class="fa fa-briefcase"></i>
+                        <p id="number1" class="number">12</p>
+                        <span></span>
+                        <p>Projects done</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+                        <i class="fa fa-smile-o"></i>
+                        <p id="number2" class="number">55</p>
+                        <span></span>
+                        <p>Happy clients</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+                        <i class="fa fa-coffee"></i>
+                        <p id="number3" class="number">359</p>
+                        <span></span>
+                        <p>Cups of coffee</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+                        <i class="fa fa-camera"></i>
+                        <p id="number4" class="number">246</p>
+                        <span></span>
+                        <p>Photos taken</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THE BEST PART -->        
+
+        <div class="system">
+            <div class="system-content">
+                <h1>Why we are the best</h1>
+                <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+            <div class="container">
+                <div class="row justify-content-around justify-content-md-around ">
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 text-center mb-3  box-1"><b>Expert Technician</b><br><br>
+                    <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 mb-3  text-center box-1"><b>Expert Technician</b><br><br>
+                        <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 text-center box-1"><b>Expert Technician</b><br><br>
+                        <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                </div>
+                <div class="row justify-content-around justify-content-md-around mt-5 ">
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 mb-3  text-center box-1"><b>Expert Technician</b><br><br>
+                    <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 mb-3  text-center box-1"><b>Expert Technician</b><br><br>
+                        <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                    <div class="col-4 col-sm-12 col-md-5 col-xl-3 col-10 mb-3  text-center box-1"><b>Expert Technician</b><br><br>
+                        <p>Usage of the Internet is becoming more <br>common due to rapid advancement of <br>technology and power.</p></div>
+                </div>
+
+
+                <div class="heading-content3">
+                    <a href="">FOLLOW US ON INSTAGRAM</a>
+                  </div>
+            </div>
+        </div>
+
+        <!-- IMG TAB -->
+
+        <div class="imges-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img1.jpg" alt="" class="img-fluid  w-100 "></div>
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img2.jpg" alt="" class="img-fluid  w-100 "></div>
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img3.jpg" alt="" class="img-fluid  w-100 "></div>
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img4.jpg" alt="" class="img-fluid  w-100 "></div>
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img2.jpg" alt="" class="img-fluid  w-100 "></div>
+                    <div class="col-2 col-sm-12 col-md-6 col-xl-2 col-12 mb-3 imgs"><img src="image/img1.jpg" alt="" class="img-fluid  w-100 "></div>
+                </div>
+            </div>
+        </div>
+
+         <!--FOOTER  -->
+
+        <div class="footer bg-dark text-light">
+            <div class="container footer-content">
+                <div class="row justify-content-between d-flex  flex-sm-column flex-xl-row ">
+                    <div class="col-5 col-sm-12 col-md-12 col-xl-5 col-12 footer-text">
+                        <b>About Me</b>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore</p>
+                        <span>Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i> by PRASHANT</span>
+                    </div>
+                    <div class="col-3 col-sm-12 col-md-12 col-xl-3 col-12 mb-2 footer-text">
+                        <h4>Newsletter</h4>
+                        <p>Stay updated with our latest trends</p>
+                        <input type="text" placeholder="search">
+                    </div>
+                    <div class="col-3 col-sm-12 col-md-12 col-xl-3 col-12 footer-text">
+                        <b>Follow Me</b>
+                        <p>Let us be social</p>
+                        <div class="icons">
+                            <a href="" class="text-light "><i class="bi bi-whatsapp"></i></a>
+                            <a href="" class="text-light "><i class="bi bi-facebook"></i></a>
+                            <a href="" class="text-light "><i class="bi bi-youtube"></i></a>
+                            <a href="" class="text-light "><i class="bi bi-globe2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".bar").click(function()
+            {
+                $(".link-main").toggle(1000);
+            })
+        })
+
+
+
+
+        
+	$.fn.jQuerySimpleCounter = function( options ) {
+	    var settings = $.extend({
+	        start:  0,
+	        end:    100,
+	        easing: 'swing',
+	        duration: 400,
+	        complete: ''
+	    }, options );
+
+	    var thisElement = $(this);
+
+	    $({count: settings.start}).animate({count: settings.end}, {
+			duration: settings.duration,
+			easing: settings.easing,
+			step: function() {
+				var mathCount = Math.ceil(this.count);
+				thisElement.text(mathCount);
+			},
+			complete: settings.complete
+		});
+	};
+
+
+$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+
+
+
+  	/* AUTHOR LINK */
+     $('.about-me-img').hover(function(){
+            $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+        }, function(){
+            $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+        });
+  
+    </script>
+    
+</body>
+</html>
