@@ -1,0 +1,1107 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main
+{
+    width: 100%;
+    z-index: 99%;
+}
+.banner
+{
+    width: 100%;
+   
+}
+.img1
+{
+    width: 100%;
+    position: absolute;
+    height: 1000px;
+    border-radius: 0 0 20% 20%;
+}
+.nav
+{ 
+    display: flex;
+    position: absolute;
+    background-color: #007aff;
+    height: 100px;
+    width:100%;
+    border-radius: 0 0 30px 30px;
+    position: fixed;
+    z-index: 99;
+} 
+.logo
+{
+    height: 70px;
+    padding-left: 10%;
+    padding-top:35px ;
+    position: absolute;
+}
+ul
+{
+    margin-left: 60%;
+    position: relative;
+    padding-top: 37px;
+}
+li
+{
+    display: inline;
+    padding-left: 20px; 
+}
+li a:hover
+{
+    background-color:blue;
+}
+a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+button
+{
+    height: 30px;
+    width: 70px;
+    background-color: #ee626b;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
+.content1
+{
+    position: absolute;
+    color: white;
+    padding-left: 10%;
+    padding-top: 20%;
+    width: 55%;
+}
+.text0
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.text01
+{
+    font-weight: bolder;
+    font-size: 44px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.text02
+{
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.gamer
+{
+    position: absolute;
+    top: 20%;
+    border-radius: 20px;
+    float: right;
+    right: 8%;
+}
+.gamer img
+{
+    border-radius: 25px;
+}
+.text1
+{
+    background-color: #007aff;
+    color: white;
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    font-size: 18px;
+    top: 30px;
+    right: 25px;
+    border-radius: 10px;
+
+}
+.text2
+{
+    background-color: #ee626b;
+    color: white;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    line-height:100px;
+    text-align: center;
+    font-size: 32px;
+    top: 85%;
+    right: 82%;
+    border-radius: 50%;
+
+}
+.search
+{
+    position: absolute;
+    height: 45px;
+    width: 90px;
+}
+
+.something
+{
+    position: relative;
+    height: 45px;
+    width: 400px;
+    padding-left: 10%;
+    margin-left: 160%;
+    margin-top: 600%;
+    border-radius: 25px;
+    border: none;
+}
+.now
+{
+    position: absolute;
+    height: 45px;
+    width: 150px;
+    top: 64.45%;
+    left: 32%;
+    border-radius: 25px;
+    border: none;
+    background-color: #ee626b;
+}
+.now:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+.layout
+{
+    width: 80%;
+}
+.lay1
+{
+    position: absolute;
+    top: 108%;
+    height: 220px;
+    left: 7%;
+    width: 20%;
+    background-color: whitesmoke;
+}
+.lay2
+{
+    position: absolute;
+    top: 108%;
+    height: 220px;
+    left: 29%;
+    width: 20%;
+    background-color: whitesmoke;
+}
+.lay3
+{
+    position: absolute;
+    top: 108%;
+    height: 220px;
+    left: 51%;
+    width: 20%;
+    background-color: whitesmoke;
+}
+.lay4
+{
+    position: absolute;
+    top: 108%;
+    height: 220px;
+    left: 73%;
+    width: 20%;
+    background-color: whitesmoke;
+}
+.lay1 img
+{
+    background-color: #007aff;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 12%;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.lay2 img
+{
+    background-color: #007aff;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 12%;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.lay3 img
+{
+    background-color: #007aff;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 12%;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.lay4 img
+{
+    background-color: #007aff;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 12%;
+    line-height: 40px;
+    padding: 20px;
+    border-radius: 50%;
+}
+h3
+{
+    color: black;
+}
+.tt:hover
+{
+    background-color: #ee626b;
+    transition: 0.5s;
+}
+.trend
+{
+    width: 80%;
+    position: absolute;
+    font-family: sans-serif;
+    top: 150%;
+    left: 10%;
+    font-size: 28px;
+}
+.trend h3
+{
+    color: #ee626b;
+    font-size: 20px;
+}
+.trend1
+{
+    height: 45px;
+    width: 120px;
+    background-color: #ee626b;
+    position:absolute;
+    top: 60%;
+    right: 0%;
+}
+.trend1:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+.blocks
+{
+    width: 80%;
+    display: block;
+
+}
+.first
+{
+    width: 20%;
+    height: 300px;
+    background-color: gainsboro;
+    top: 190%;
+    left: 7%;
+    position: absolute;
+    border-radius: 20px;
+}
+.first p
+{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: grey;
+}
+.first h4
+{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 2px;
+    color: black;
+}
+.first img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.first .first1
+{
+    height: 35px;
+    width: 35px;
+    background-color: #ee626b;
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+}
+.first1:hover
+{
+    background-color:#007aff;
+    transition: 0.5s;
+}
+.first h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+
+.second
+{
+    width: 20%;
+    height: 300px;
+    background-color: gainsboro;
+    top: 190%;
+    left: 29%;
+    position: absolute;
+    border-radius: 20px;
+}
+.second img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.second p
+{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: grey;
+}
+.second h4
+{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 2px;
+    color: black;
+}
+.second img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.second .first1
+{
+    height: 35px;
+    width: 35px;
+    background-color: #ee626b;
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+}
+.first1:hover
+{
+    background-color:#007aff;
+    transition: 0.5s;
+}
+.second h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.third
+{
+    width: 20%;
+    height: 300px;
+    background-color: gainsboro;
+    top: 190%;
+    left: 51%;
+    position: absolute;
+    border-radius: 20px;
+}
+.third img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.third p
+{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: grey;
+}
+.third h4
+{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 2px;
+    color: black;
+}
+.third img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.third .first1
+{
+    height: 35px;
+    width: 35px;
+    background-color: #ee626b;
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+}
+.first1:hover
+{
+    background-color:#007aff;
+    transition: 0.5s;
+}
+.third h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.fourth
+{
+    width: 20%;
+    height: 300px;
+    background-color: gainsboro;
+
+    top: 190%;
+    left: 73%;
+    position: absolute;
+    border-radius: 20px;
+}
+.fourth img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.fourth p
+{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: grey;
+}
+.fourth h4
+{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 2px;
+    color: black;
+}
+.fourth img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.fourth .first1
+{
+    height: 35px;
+    width: 35px;
+    background-color: #ee626b;
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+}
+.first1:hover
+{
+    background-color:#007aff;
+    transition: 0.5s;
+}
+.fourth h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.played
+{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius:100px;
+    top: 250%;
+    font-family: sans-serif;
+}
+.play1
+{
+    font-weight: bold;
+    width: 80%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+}
+.play1 p
+{
+    color: #ee626b;
+}
+.play1 button
+{
+    height: 45px;
+    width: 120px;
+    background-color: #ee626b;
+    position:absolute;
+    top:50%;
+    right: 0%;
+}
+.play1 button:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+.play2
+{
+    width: 90%;
+}
+.p1
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 6%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p1 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p1 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p1 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p1 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+
+
+.p2
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 21%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p2 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p2 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p2 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p2 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+
+
+.p3
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 36%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p3 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p3 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p3 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p3 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+
+
+.p4
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 51%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p4 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p4 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p4 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p4 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+
+
+.p5
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 66%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p5 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p5 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p5 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p5 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+
+.p6
+{
+    width: 14%;
+    height: 280px;
+    background-color: white;
+    top: 30%;
+    left: 81%;
+    position: absolute;
+    border-radius: 20px;
+}
+.p6 img
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.p6 p
+{
+    padding-top: 20px;
+    color: gray;
+}
+.p6 h4
+{
+    color: black;
+}
+.p
+{
+    position: relative;
+    top: 28%;
+    left: 32%;
+}
+.p6 h4:hover
+{
+    color: #007aff;
+    transition: 0.5s;
+}
+.p:hover
+{
+    background-color: #007aff;
+    transition: 0.5s;
+}
+.Categories
+{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    top: 340%;
+    font-family: sans-serif;
+}
+.Categories h4
+{
+    color: #ee626b;
+}
+.action
+{
+    position: absolute;
+    top: 360%;
+    width: 100%;
+    text-align: center;
+}
+.action .ac1
+{
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#007aff;
+    color: white;
+    display: inline-block;
+}
+.ac1 img
+{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+}
+.ac1 h3
+{
+    color: white;
+    font-family: sans-serif;
+}
+.action .ac2
+{
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#007aff;
+    color: white;
+    display: inline-block;
+}
+.ac2 img
+{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+}
+.ac2 h3
+{
+    color: white;
+    font-family: sans-serif;
+}
+.action .ac3
+{
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#007aff;
+    color: white;
+    display: inline-block;
+}
+.ac3 img
+{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+}
+.ac3 h3
+{
+    color: white;
+    font-family: sans-serif;
+}
+.action .ac4
+{
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#007aff;
+    color: white;
+    display: inline-block;
+}
+.ac4 img
+{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+}
+.ac4 h3
+{
+    color: white;
+    font-family: sans-serif;
+}
+.action .ac5
+{
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    width: 220px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#007aff;
+    display: inline-block;
+}
+.ac5 img
+{
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    top: 10%;
+}
+.ac5 h3
+{
+    color: white;
+    font-family: sans-serif;
+}
+.last
+{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 420%;
+}
+.last1 img
+{
+    position: relative;
+    height: 536px;
+    width: 526px;
+    border-radius: 25px;
+    left: 33%;
+}
+.last2
+{
+    background-color:whitesmoke;
+    height: 536px;
+    width: 526px;
+    position: relative;
+    bottom: 90%;
+    left: 8%;
+    border-radius: 25px;
+}
+.last2 h4
+{
+    color: #ee626b;
+    padding-left: 8%;
+    padding-top: 15%;
+    font-family: sans-serif;
+}
+.last2 p
+{
+    color:black;
+    padding-left: 8%;
+    padding-top: 15%;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.last2 button
+{
+    background-color:#ee626b;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    margin-left: 8%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.btn2:hover
+{
+    background-color:#007aff;
+    transition: 0.80s;
+}
+.last2 h1
+{
+    color: black;
+    padding-left: 8%;
+    padding-top: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+.last3
+{
+    background-color:whitesmoke;
+    height: 423px;
+    width: 526px;
+    position: relative;
+    bottom: 175%;
+    left: 58%;
+    border-radius: 25px;
+}
+.last3 h4
+{
+    color: #ee626b;
+    padding-left: 8%;
+    padding-top: 15%;
+    font-family: sans-serif;
+}
+.last3 button
+{
+    background-color:#ee626b;
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin-left: 45%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.btn3:hover
+{
+    background-color:#007aff;
+    transition: 0.8s;
+}
+.last3 h1
+{
+    color: black;
+    padding-left: 8%;
+    padding-top: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+.last3 input
+{
+    background-color:white;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    margin-left: 8%;
+    margin-top: 10%;
+    border-radius: 25px;
+    font-family: sans-serif;
+    border: none;
+    padding: 15px;
+}
+.footer
+{
+    position: absolute;
+    width: 100%;
+    top: 520%;
+}
+.foot
+{
+    width: 100%;
+    margin: auto;
+}
+.foot img
+{
+    width: 100%;
+    height: 180px;
+    border-radius:220px 220px 0 0;
+}
+.foot p
+{   
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+}
