@@ -42,7 +42,7 @@ body {
 .icon {
     font-size: 80px;
     position: absolute;
-    top: 20%;
+    top: 12%;
     transition: opacity 0.5s ease;
 }
 
