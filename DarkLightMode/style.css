@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    transition: background-color 0.4s, color 0.4s;
+    position: relative;
+}
+
+.input {
+    visibility: hidden;
+}
+
+.label {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: white;
+    animation: toggleOff 0.4s linear forwards;
+    z-index: 1;
+}
+
+.icon {
+    font-size: 80px;
+    position: absolute;
+    top: 20%;
+    transition: opacity 0.5s ease;
+}
+
+.sun {
+    color: gold;
+    opacity: 1;
+}
+
+.moon {
+    color: darkblue;
+    opacity: 0;
+}
+
+.input:checked + .label .circle {
+    animation: toggleOn 0.4s linear forwards;
+    background-color: black;
+}
+
+.input:checked ~ .sun {
+    opacity: 0;
+}
+
+.input:checked ~ .moon {
+    opacity: 1;
+}
+
+.input:checked + .label {
+    background-color: #333;
+}
+
+.content{
+    text-align: center;
+    p{
+        padding: 40px;
+        font-size: 24px;
+    }
+}
+
+@keyframes toggleOn {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(40px);
+    }
+}
+
+@keyframes toggleOff {
+    0% {
+        transform: translateX(40px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
